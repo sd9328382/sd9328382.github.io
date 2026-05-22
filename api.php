@@ -14,9 +14,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') exit(0);
 // ============================================================
 // ⚙️  إعدادات قاعدة البيانات — غيّر هذه فقط
 // ============================================================
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 define('DB_NAME', 'server_800_Empire');
-define('DB_USER', 'root');
+define('DB_USER', 'server_800');
 define('DB_PASS', 'fujzhedx71');
 // ============================================================
 
